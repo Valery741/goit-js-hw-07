@@ -1,7 +1,7 @@
 const form = document.querySelector("form");
 
 form.addEventListener("submit", event => {
-    // ...
+    handleSubmit(event);
 });
 
 function handleSubmit(event) {
@@ -27,5 +27,3 @@ function handleSubmit(event) {
 
     form.reset();
 }
-
-
